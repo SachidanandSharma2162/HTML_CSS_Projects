@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.nav-part1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-part1 h2,h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-part1 h2:hover{
+    font-size: 30px;
+    transition-duration: 200ms;
+}
+.nav-part2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-part2 h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+#content{
+    width: 100%;
+    /* background-color: red; */
+    padding: 40px 50px;
+    margin-top: 5px;
+}
+#content h1{
+    font-size: 8vw;
+    font-weight: 500;
+    line-height: 8vw;
+    margin-top: 20px;
+    letter-spacing: -4px;
+    word-spacing: 10px;
+}
+#content h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+#case{
+    width: 100%;
+    margin-top: 50px;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+.right{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right .line{
+    height: 2px;
+    background-color: rgb(114, 111, 111);
+    width: 100px;
+}
+#project{
+    width: 100%;
+    padding: 10px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.elem{
+    width: 50%;
+}
+.elem img{
+    height: 40vw;
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    padding-bottom:20px;
+}
+.elem img:hover{
+    height: 50vw;
+    width: 105%;
+    transition-duration: 300ms;
+}
+.btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.btm i{
+    font-size: 10px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btm-left h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.btm-left h4{
+    font-size: 12px;
+    font-weight: 600;
+    color: #716d6d;
+}
+.btm i:hover{
+    background-color: black;
+    color: #fff;
+}
