@@ -23,6 +23,7 @@ About Us section with image and text
 
 📂 Files:
 index.html, style.css
+and many other projects...
 
 🌟 Highlights
 Responsive Design: Looks great on desktop and mobile.
